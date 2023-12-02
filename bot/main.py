@@ -87,7 +87,7 @@ async def add(ctx, plant: str ="tree", user: discord.Member = None):
                 point += us.points
                 updated = User.query.filter_by(name = names).update(dict(points = point ))
                 db.session.commit()
-                await ctx.channel.send("All oka)
+                await ctx.channel.send("All okay")
                 
 
                 
@@ -103,4 +103,4 @@ async def plant(ctx):
 
 ####################################################################################################
 
-bot.run("MTExMjgyNzA3ODA3Nzg0OTYwMA.GYmJR3.kcyc-XrUuZVCdOaBjvq0E-XCGb84bH8rM1neCg")
+bot.run("token")
