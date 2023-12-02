@@ -137,4 +137,4 @@ async def plant(ctx):
 
 ####################################################################################################
 
-bot.run("MTExMjgyNzA3ODA3Nzg0OTYwMA.GyeDu9.zJYYTbnWCuNSLQZkgG5KF5jG73rtK8mn171Q4A")
+bot.run("token")
